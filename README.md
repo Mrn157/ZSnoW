@@ -38,8 +38,8 @@ To build the project, you need the Zig compiler and a Wayland development enviro
   - The zig-wayland dependency will be automatically fetched during the build process.
 
 3. Clone the repository
-4. Build the executable using `zig build -Drelease-safe`
-  Replace -Drelease-safe with -Drelease-fast or -Ddebug depending on your preferred optimization level.
+4. Build the executable using `zig build -Doptimize=ReleaseSafe`
+  Replace -Doptimize=ReleaseSafe with -Doptimize=ReleaseFast or -Doptimize=Debug depending on your preferred optimization level.
 5. Copy the generated executable from `zig-out/bin` to a desired location.
 6. Let it snow by executing `zsnow`
 
